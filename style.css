@@ -1,0 +1,39 @@
+button{
+	height: 50px;
+	width: 50px;
+	border: 2px solid hsl(60, 8%, 3%);
+}
+#display{
+	height: 90px;
+	width: 205px;
+	border: 2px solid black;
+	font-size: 25px;
+	border-radius: 5px;
+	background-color: aqua;
+
+
+}
+body{
+	background-image: linear-gradient(aqua,black);
+	height: 100vh;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	
+	
+}
+.calculate{
+	background-color: black;
+	padding: 15px;
+	box-shadow: 0 5px black;
+	border-radius: 10px;
+}
+button:active {
+	box-shadow: 0 1px #a8a8a8;
+	transform: translateY(2px);
+  }
+  h2{
+	font-style: italic;
+	font-size: 40px;
+  }
